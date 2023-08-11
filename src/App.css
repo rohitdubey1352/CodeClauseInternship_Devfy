@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+	color: rgb(54, 54, 54);
+}
+
+h3,
+h4 {
+	font-weight: 400;
+}
+
+
+.searchicon{
+  position: absolute;
+  left: .6rem;
+  top: 1.1rem;
+}
+
+.nav-item{
+  position: relative;
+  width: 15.4rem;
+  height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search_bar{
+  position: relative;
+  width: 15.4rem;
+  margin-top: .4rem;
+  padding: .4rem .8rem;
+  border-radius: 3.125rem;
+  border: 2px solid #F0B6DB;
+}
+
+.search_bar::placeholder{
+  color: rgba(64, 64, 64, 0.50);
+  font-size: .8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  padding-left: 1.5rem;
+}
+
+.explore_section{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.explore_section a{
+  font-size: .88rem;
+  color: #404040;
+  letter-spacing: .26px;
+  font-weight: 500;
+}
+
+.btn, .btn_grp{
+  border: 2px solid #F0B6DB;
+  border-radius: 3.125rem;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(20px);
+  display: flex;
+  align-items: center;
+}
+
+.btn:hover{
+  border: 2px solid #F0B6DB;
+  color: #E6E6E6;
+}
+.btn_grp img{
+  width: 28px;
+  margin: .2rem .4rem;
+  cursor: pointer;
+}
+
+/* .................................................................. */
+
+.gradient1{
+  position: absolute;
+  background: url('./Image/Gradient1.png');
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  width: 100%;
+  height: 70vh;
+  top: 0;
+  right: 0;
+}
+
+
+.gradient2{
+  position: absolute;
+  background: url('./Image/Gradient2.png');
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  width: 100%;
+  height: 100%;
+  bottom: -2.4rem;
+  left: 0;
+}
+
+/* .................................................................. */
+
+.main_heading h1{
+  color: #E6E6E6;
+  font-family: "Montserrat";
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08rem;
+  margin-bottom: -5.98rem;
+  display: flex;
+  margin-left: 10rem;
+}
+
+/* ....................................................................... */
+.library{
+  position: relative;
+  margin-left: auto;
+}
+
+.song_box{
+  position: relative;
+  width: 40rem;
+  height: 32rem;
+  margin: auto;
+  border: 1px solid #F0B6DB;
+  border-radius: 3.125rem;
+  background: linear-gradient(to top, #F0B6DB57, #0066ff57);
+  /* background: #F0B6DB05; */
+  backdrop-filter: blur(42px);
+  -webkit-backdrop-filter: blur(42px);
+	box-shadow: 4px 8px 4px rgb(204, 204, 204),
+              -4px -8px 4px #ffffff25;
+
+}
+
+.fIWpBb{
+  background-color: transparent!important;
+}
+
+.navbar-toggler{
+  position: relative;
+}
+
+/* .................................................................... */
+
+@media screen and (max-width: 525px) {
+  .song_box{
+    width: 22rem;
+    padding: .8rem;
+  }
+  .navbar-nav{
+    margin-left: 4rem;
+  }
+}
