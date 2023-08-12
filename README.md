@@ -1,7 +1,9 @@
 # A clean react music player web application.
-
 In this project I had designed the website on #Figma which is designer platform where users designs the web and mobile application interface.
 After the design completed, I had to go for coding in react and implementing the logic for music statements for the application. You can click on the play, previous and next button for manipulating with the songs and on the right side is for playlist songs which is responsive with the according running with the current song.
+
+##Preview Link for this website:
+devfy.netlify.app/
 
 ## Test it out yourself!
 
